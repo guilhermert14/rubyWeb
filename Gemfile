@@ -1,0 +1,17 @@
+source 'http://rubygems.org'
+
+gem 'selenium-webdriver',       '3.4.0'
+gem 'cucumber',                 '3.1.0'
+gem 'rspec',                    '3.6.0'
+gem 'rest-client'
+gem 'json-schema'
+gem 'capybara',                 '2.17.0'
+gem 'pry',                      '0.10.4'
+gem 'poltergeist',              '1.15.0'
+gem 'ffaker'
+gem 'parallel_tests'
+gem 'rake'
+gem 'httparty'
+gem 'colorize'
+gem 'rubocop', require: false
+gem 'report_builder'

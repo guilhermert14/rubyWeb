@@ -1,0 +1,175 @@
+local: http://www.bandeira.com.br/
+#local: http://www.bandeirahlg.net
+login: https://carrinho.bandeira.com.br/Checkout?ReturnUrl=https://www.bandeira.com.br#login
+#login: http://carrinho.bandeirahlg.net/Checkout?ReturnUrl=https://www.bandeirahlg.net#login
+sku: https://produto.bandeira.com.br/sku
+#sku: http://www.bandeirahlg.net/sku.html
+url_ck_responsivo: https://checkout.bandeira.com.br/
+url_ck_login_responsivo: https://checkout.barateiro.com.br/Login
+
+############### Header/Footer ########################
+meus_pedidos: https://carrinho.bandeira.com.br/Site/MeusPedidos.aspx
+duvidas: https://www.bandeira.com.br/centraldeatendimento
+atendimento: https://atendimento.bandeira.com.br/
+retira_rapido: https://www.bandeira.com.br/servicos/retira-rapido.aspx
+carrinho: https://carrinho.bandeira.com.br/
+lista_casamento: http://casamento.bandeira.com.br/
+televendas: Televendas
+nossas_lojas: https://institucional.bandeira.com.br/lojas
+nossas_lojas_ex: "localizador.bandeira.com.br/storeSearch/"
+
+
+############### Departamentos #########################
+Ar e Ventilação: https://www.bandeira.com.br/ArVentilacao/?Filtro=C2809
+Áudio: https://www.bandeira.com.br/audio/?Filtro=C3279
+Automotivo: https://www.bandeira.com.br/automotivo/?Filtro=C836
+Beleza e Saúde: https://www.bandeira.com.br/BelezaSaude/?Filtro=C102
+Celulares e Telefones: https://www.bandeira.com.br/TelefoneseCelulares/?Filtro=C38
+Eletrodomésticos: https://www.bandeira.com.br/Eletrodomesticos/?Filtro=C13
+Eletrodomésticos_pf: https://www.bandeira.com.br/eletrodomesticos/?Filtro=C13
+Eletrodomésticos_ex: https://www.bandeira.com.br/eletrodomesticos/?Filtro=C13
+Eletroportáteis: https://www.bandeira.com.br/Eletroportateis/?Filtro=C73
+Móveis: https://www.bandeira.com.br/Moveis/?Filtro=C93
+TVs e Acessórios: https://www.bandeira.com.br/tvseacessorios/?Filtro=C1
+Alimentos: https://www.bandeira.com.br/Alimentos/?Filtro=C2339
+Artesanato: https://www.bandeira.com.br/Artesanato/?Filtro=C2599
+Artesanato_ex: https://www.bandeira.com.br/artesanato/?Filtro=C2599
+Artigos para Festa: https://www.bandeira.com.br/artigosparafestas/?Filtro=C2894
+Artigos para Festas: https://www.bandeira.com.br/artigosparafestas/?Filtro=C2894
+Bebês: https://www.bandeira.com.br/bebes/?Filtro=C983
+Bebidas: https://www.bandeira.com.br/Bebidas/?Filtro=C2596
+Brinquedos: https://www.bandeira.com.br/brinquedos/?Filtro=C977
+Câmeras e Filmadoras: https://www.bandeira.com.br/CineFoto/?Filtro=C29
+Cama, Mesa e Banho: https://www.bandeira.com.br/CamaMesaBanho/?Filtro=C1732
+Cama, Mesa e Banho_pf: https://www.bandeira.com.br/camamesabanho/?Filtro=C1732
+Cama, Mesa e Banho_ex: https://www.bandeira.com.br/camamesabanho/?Filtro=C1732
+Casa e Construção: https://www.bandeira.com.br/MaterialparaConstrucao/?Filtro=C2547
+Casa e Construção_pf: https://www.bandeira.com.br/construcao/?Filtro=C2547
+Casa e Construção_ex: https://www.bandeira.com.br/construcao/?Filtro=C2547
+Decoração: https://www.bandeira.com.br/decoracao/?Filtro=C3359
+DVDs e Blu-Ray: https://www.bandeira.com.br/dvdsebluray/?Filtro=C833
+Esporte e Lazer: https://www.bandeira.com.br/EsporteLazer/?Filtro=C418
+Ferramentas: https://www.bandeira.com.br/Ferramentas/?Filtro=C827
+Flores: https://www.bandeira.com.br/Flores/?Filtro=C1900
+Games: https://www.bandeira.com.br/Games/?Filtro=C336
+Informática: https://www.bandeira.com.br/Informatica/?Filtro=C56
+Instrumentos Musicais: https://www.bandeira.com.br/InstrumentosMusicais/?Filtro=C2471
+Instrumentos Musicais_ex: https://www.bandeira.com.br/instrumentosmusicais/?Filtro=C2471
+Joias: https://www.bandeira.com.br/Joias/?Filtro=C2168
+Joias_ex: https://www.bandeira.com.br/joias/?Filtro=C2168
+Linha Industrial: https://www.bandeira.com.br/LinhaIndustrial/?Filtro=C1017
+Linha Industrial_pf: https://www.bandeira.com.br/EletrodomesticosLinhaIndustrial/?Filtro=C1017
+Linha Industrial_ex: https://www.bandeira.com.br/EletrodomesticosLinhaIndustrial/?Filtro=C1017
+Livros: https://www.bandeira.com.br/livros/?Filtro=C484
+Malas e Mochilas: https://www.bandeira.com.br/malasemochilas/?Filtro=C1813
+Moda: https://www.bandeira.com.br/Moda/?Filtro=C1734
+Moda_ex: https://www.bandeira.com.br/moda/?Filtro=C1734
+Natal: https://www.bandeira.com.br/natal/?Filtro=C2042
+Papelaria: https://www.bandeira.com.br/Papelaria/?Filtro=C1639
+Papelaria_pf: https://www.bandeira.com.br/papelaria/?Filtro=C1639
+Papelaria_ex: https://www.bandeira.com.br/papelaria/?Filtro=C1639
+Perfumaria: https://www.bandeira.com.br/Perfumaria/?Filtro=C1886
+Pet Shop: https://www.bandeira.com.br/PetShop/?Filtro=C2294
+Pet Shop_ex: https://www.bandeira.com.br/petshop/?Filtro=C2294
+Produtos Importados: https://www.bandeira.com.br/?Filtro=D15005
+Produtos Importados_pf: https://www.bandeira.com.br/?Filtro=D23651
+Produtos Importados_ex: https://www.bandeira.com.br/?Filtro=D23185
+Produtos de Limpeza: https://www.bandeira.com.br/ProdutosdeLimpeza/?Filtro=C2285
+Relógios: https://www.bandeira.com.br/Relogios/?Filtro=C1733
+Suplementos Alimentares: https://www.bandeira.com.br/EsporteLazer/SuplementosAlimentares/?Filtro=C418_C2667
+Tablet: https://www.bandeira.com.br/Tablets/?Filtro=C2031
+Tablets: https://www.bandeira.com.br/tablets/?Filtro=C2031
+Utilidades Domésticas: https://www.bandeira.com.br/UtilidadesDomesticas/?Filtro=C371
+Cine e Foto: https://www.bandeira.com.br/CineFoto/?Filtro=C29
+Festival de Verão: https://www.bandeira.com.br/ofertas/verao.aspx
+Malas: https://www.bandeira.com.br/malasemochilas/?Filtro=C1813
+Móveis e Colchões: https://www.bandeira.com.br/Moveis/?Filtro=C93
+Telefones e Celulares: https://www.bandeira.com.br/TelefoneseCelulares/?Filtro=C38
+Alimentos e Bebidas: https://www.deliverybandeira.com.br
+Calçados: https://www.bandeira.com.br/calcados/?Filtro=C448
+Vinhos e Cervejas: https://www.bandeira.com.br/bebidas/?Filtro=C2596
+
+############################# Serviços #########################################
+Atacado: https://www.bandeiraatacado.com.br/
+Seguro de Garantia Estendida Original: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#seguro-garantia-estendida
+Fique Seguro: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#vantagens
+Download / Games: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#download-games
+Montagem de Móveis: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#montagem-moveis
+Instalações: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#instalacoes
+Instalações_pf: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673&nid=201355#montagem-moveis
+Revelação Digital: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#servicos
+Multiassistência: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#servicos
+Lista de Casamento: http://casamento.bandeira.com.br/
+Retira Rápido: https://www.bandeira.com.br/servicos/retira-rapido.aspx
+Cartão Casas Bahia: https://www.bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+Cartão Pontofrio: https://www.bandeira.com.br/cartaopontofrio/cartao.aspx
+Planejados: https://devcastrojunin.github.io/monta-facil/planejados/
+
+########################### Footer #############################################
+footer:
+  Atendimento para Internet ou Televendas: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx
+  Atendimento para Loja Física: https://institucional.bandeira.com.br/fale-conosco
+  Sobre a Entrega: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?lista=8
+  Sobre a entrega: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111533&lista=8
+  Política de Troca e Devolução: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=313
+  Nota Fiscal Eletrônica: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?lista=17
+  Editar meu Cadastro: https://carrinho.bandeira.com.br/Cliente/MeuPerfil
+  Nota Fiscal Paulista: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=138
+  Seguro de Garantia Estendida Original: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673&nid=200496#garantia-estendida
+  Termos e Condições de Uso: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=994
+  Quantidade de itens por pedido: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=1017
+  Prepare-se para o Black Friday: https://www.bandeira.com.br/blackfriday/blackfriday.aspx
+  Prepare-se para a BlackFriday: https://www.bandeira.com.br/blackfriday/blackfriday.aspx
+  Sobre as Casas Bahia:  https://institucional.bandeira.com.br/empresa/nossa-historia
+  Cartão Casas Bahia: https://www.bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+  Nossas Lojas: https://www.bandeira-imagens.com.br/pdf/nossasFiliais.pdf
+  Lojas Físicas: https://institucional.bandeira.com.br/lojas
+  Privacidade e Segurança: https://www.bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=136
+  Trabalhe Conosco: https://www.viavarejo.com.br/rh
+  Trabalhe conosco: https://www.viavarejo.com.br/rh
+  Lista de Casamento: casamento.bandeira.com.br
+  Mapa do Site: https://www.bandeira.com.br/mapadosite/mapadosite.aspx
+  Anuncie com a gente: http://www.cnovaads.com.br/
+  Venda seus produtos nas Casas Bahia: http://viavarejonegocios.com.br/
+  Palavras mais Buscadas: https://buscas.bandeira.com.br/
+  Atendimento para Internet ou Televendas_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx
+  Nota Fiscal Paulista_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx?topico=82
+  Como pagar: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111532&lista=9
+  Sobre a Entrega_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111533&lista=8
+  Política de Troca e Devolução_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx?topico=302
+  Política e Privacidade: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111535&topico=80
+  Termos e Condições de Uso_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx?topico=997
+  Quantidade de itens por pedido_pf: https://www.bandeira.com.br/centraldeatendimento/home.aspx?topico=1017
+  Retira Rápido: https://www.bandeira.com.br/servicos/retira-rapido.aspx
+  Revelação Digital: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673&nid=200140#servicos
+  Seguro de Garantia Estendida Original_pf: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673#garantia-estendida
+  Pontofrio Atacado: https://www.bandeiraatacado.com.br/
+  Entrega Agendada: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111552&topico=106
+  Palavras mais Buscadas_pf: https://search.bandeira.com.br/?icid=111554
+  Conheça o Pontofrio: https://institucional.bandeira.com.br/empresa/nossa-historia
+  Sobre o Pontofrio.com: https://www.bandeira.com.br/centraldeatendimento/home.aspx?icid=111555&topico=308
+  Relação com Investidores: http://ri.viavarejo.com.br
+  Nossas Lojas_pf: https://institucional.bandeira.com.br/lojas
+  Ponto Premium: https://www.bandeira.com.br/lojafisica/pontofrio-premium-store.aspx
+  Programa de Afiliados: https://www.bandeira.com.br/afiliados/programa-de-afiliados.aspx
+  Via Varejo Ads: http://viavarejonegocios.com.br/ads
+  Atendimento Loja Física: http://faleconosco.grupopaodeacucar.com.br/extralojas/Home/FaleConosco
+  Prazos e locais de entrega: https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?lista=8
+  Política de Troca e Devolução_ex: https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?topico=298
+  Política de Privacidade: https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?topico=14
+  Nota Fiscal Paulista_ex : https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?topico=16
+  Termos e Condições de Uso_ex: https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?topico=996
+  Quantidade de itens por pedido_ex: https://www.bandeira.com.br/CentraldeAtendimento/home.aspx?topico=1017
+  Meus Pedidos: https://carrinho.bandeira.com.br/Site/MeusPedidos.aspx
+  Editar Meu Cadastro: https://carrinho.bandeira.com.br/Site/MeuPerfil.aspx
+  Serviços: https://www.bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Blog Extra: https://tudo.bandeira.com.br
+  Trabalhe Conosco_ex: https://www.bandeira.com.br/trabalhe-conosco/vagas.aspx
+  Anuncie com a Gente: http://viavarejonegocios.com.br/ads
+  Palavras mais Buscadas_ex: https://buscando.bandeira.com.br
+  Nosso manifesto. Vai que você pode!: https://www.bandeira.com.br/institucional/manifesto.aspx
+  Marketplace, Soluções & Serviços: http://viavarejonegocios.com.br
+
+#################finalizao da compra###############################
+finalizacao: "https://carrinho.bandeira.com.br/Compra/CompraFinalizada/"
+url_finalizacao: "https://carrinho.bandeira.com.br/Compra/CompraFinalizada/"

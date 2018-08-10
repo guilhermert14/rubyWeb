@@ -1,0 +1,14 @@
+radio_12_meses: "0"
+radio_24_meses: "1"
+radio_36_meses: "2"
+radio_roubo: "3"
+radio_quebra: "4"
+radio_roubo_quebra: "5"
+
+12_meses: "12"
+24_meses: "24"
+36_meses: "36"
+
+roubo: "Roubo e Furto Qualificado"
+quebra: "Quebra Acidental"
+roubo_quebra: "Roubo e Furto Qualificado + Quebra Acidental"

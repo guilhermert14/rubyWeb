@@ -1,0 +1,54 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - features/*
+  RunRailsCops: true
+
+Documentation:
+  Enabled: false
+
+DotPosition:
+  EnforcedStyle: trailing
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Documentation:
+    Enabled: false
+
+AllCops:
+  Exclude:
+    - 'step_definitions/**'
+    - 'screenshots/**/*'
+    - 'test_servers/**/*'
+    - '*.feature'
+    - 'ci/*'
+    - 'reports/**'
+
+  TargetRubyVersion: 2.3.3
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: alway
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80

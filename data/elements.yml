@@ -1,0 +1,629 @@
+###################### Botoes ###########################################
+botao_CadastreSe: a[id='lnkCadastreSe']
+botao_Continuar: input[value='Continuar']
+botao_Concluir: input[value='Concluir']
+botao_ContinuarLogin: input[id='btnClienteLogin']
+botao_Buscar: .bt.ic-search
+#botao_Buscar: "#btnOK"
+botao_Comprar: a[id='btnAdicionarCarrinho']
+botao_ComprarDesativado: .bt.bt-comprar-disabled
+botao_ContinuarGarantia: .continue-button
+botao_RecusaGarantia: a[class='decline-button']
+botao_recusar_garantia_BT: a[class="continue-button"]
+botao_ConcluirCompra: .bt.btconcluir
+botao_EncontrarLojas: .lupa-modal
+botao_RetirarNestaLoja: .confirma-local-retira
+botao_FinalizarCompra: button[id='btFinalizarCompra']
+botao_Retirar+: .lnkPop.bt-retirar
+botao_Retirar: .lnkPop.bt.bt-retirar
+botao_OkCalculoFrete: input[id='btnCalculoFrete']
+botao_OkCalculoFrete_carrinho: input[id='btnCalcularFrete']
+botao_RetirarNaLoja: .lnkPop.bt.retira-loja-bt-more
+botao_retira_24horas: a[title='Retire em 24h']
+botao_remover_produtos: .lnk.lnkRemover
+botao_meu_carrinho: "#itensCarrinho"
+botao_tenho_cadastro: "#lnkTenhoCadastro"
+botao_continuar_esqueci_login: "#btnEnviarSenha"
+botao_retiar_local: a[title="Retirar neste local"]
+botao_selecionar_pagamento: "#btSelecionarPagamento"
+botao_meu_perfil: "#ctl00_Conteudo_lnkMeuPerfil"
+botao_meus_pedidos: .meusPedidos
+botao_procurar_cep: .lupa-modal.home
+botao_fechar_modal: a[id="btnFecharModalEmailMudou"]
+botao_continuar_modal: "#btnAlterarEmail"
+botao_+_cor: "#rtgIconCores"
+botao_+_acessorio: "#rtgIconAcessorios"
+botao_+_material: "#rtgIconMateriais"
+lista_cores: "#listaDeCores"
+lista_acessorios: "#listaDeAcessorios"
+lista_material: "#listaDeMateriais"
+botao_fechar_modal_esqueci_senha: "#btnFecharModalEsqueciSenha"
+botao_cadastrar_endereco: .bt.btCadastrar
+botao_cancelar_cadastro_endereco: .bt.btCancelar
+
+#Tela de pagamento
+botao_ContinuarPgto: .bt.btFinalizarCompra
+botao_ConcluirPgto: .bt.btContinuar
+botao_confirmar: .bt.btContinuar
+botao_finalizar_compra: "#btFinalizarCompraResumo2"
+botao_finalizar_visa_checkout: .v-button
+botao_finalizar_paypal: "#btPagPaypal"
+
+botao_carrinho_pf_ex: a[class='cart-link']
+botao_carrinho: .cart-quantity
+botao_carrinho_barateiro: .itensCarrinho
+botao_mais_produtos: "#btnComprarMaisProdutos"
+botao_meus_pedidos: a[href='https://carrinho.casasbahia.com.br/Site/MeusPedidos.aspx']
+botao_concluir_compra: a[data-id='btnComprar']
+imagem_cartao_invalido: input[class*=input-validation-error]
+imagem_campo_valido: input[class="valid"]
+imagem_numero_valido: input[class="tel valid"]
+imagem_DDD_valido: .ddd.valid
+imagem_parcela_valida: input[class="installmentQty valid"]
+imagem_campo_invalido: .input-validation-error
+botao_pagar_dois_cartoes: .bt.bt2Cards.ng-binding
+texto_bandeira_debito_online: .wrapper.boleto
+botao_boleto_mais_cartao: "#btFpBoletoMaisCartao"
+imagem_cpf_valido: .campo-cpf-cnpj.valid
+############Entrega################
+radio_button_tipo_entrega: input[id='IdEntregaTipoSelecionado']
+botao_Salvar_Continuar: '#btnClienteSalvar'
+#Responsivo meios pagamento
+botao_Continuar_r: button[class*=buttonPrimary]
+botao_Comprar_Mais_Produtos_r: (//*[text()="Comprar mais produtos"])[1]
+botao_Concluir_Compra_r: (//*[text()="Concluir Compra"])[1]
+botao_Calcular_Frete_r: '#btnFrete'
+botao_Utilizar_Cupom_r: '#btnCupomDesconto'
+botao_Paypal_r: '#btnComprarComPayPalBottom' #pendente
+botao_Paypal: a[title="Paypal"]
+botao_Visa_Checkout_r: '#img[alt="Visa Checkout"]' #pendente
+botao_visa_checkout: a[title="VisaCheckout"]
+botao_Cadastrar_Novo_End_r: .btnEndEntrega
+botao_escolher_pagamento_r: (//button[@class="btn buttonPrimary"])[1]
+botao_Finalizar_Compra_r: .col-md-4 .buttonPrimary
+botao_debito_em_conta: "input[name='btDebito']"
+botao_continuar_garantia_r: '.content-wrapper div > a:nth-child(1)'
+botao_continuar_cb_r: 'a[class=decline-button]'
+botao_ja_tenho_cadastro_r: a[class*=btnVoltar]
+botao_esqueci_email: '#btnEsqueciMeuEmail'
+botao_enviar_pf_esqueci_email: '.buttonPrimary'
+botao_enviar_pj_esqueci_email: '#btnEnviarDadosPjEsqueciSenha'
+botao_tipo_pessoa_pj_checkout: '#pessoa_juridica'
+botao_inserir_cupom: "#calcularValePresente"
+botao_quarto: "#tabQuarto"
+botao_sala: "#tabSala"
+botao_banheiro: "#tabBanheiro"
+botao_cozinha: "xpath tag de selecao "
+botao_consultCep: "#consultaCep"
+
+
+################### cadastro endereco ##############################
+
+identificao_end: input[id='Nome']
+nome_destinatario: input[id='Destinatario']
+numero_casa: input[id='Numero']
+ponto_referencia: input[id='PontoReferencia']
+
+
+####################campos Texto########################################
+texto_Email: input[id='Email']
+texto_NomeCompleto: input[id='NomeCompleto']
+texto_Cpf: input[id="Cpf"]
+texto_DddPhone: input[id='Telefone1DDDPF']
+texto_Phone: input[id='Telefone1PF']
+texto_DddPhone2: input[id='Telefone2DDDPF']
+texto_Phone2: input[id='Telefone2PF']
+texto_NascDia: input[id='DataNascimentoDia']
+texto_NascMes: input[id='DataNascimentoMes']
+texto_NascAno: input[id='DataNascimentoAno']
+texto_Conf_Email: input[id='ConfirmarEmail']
+texto_confirmar_email: input[id="ConfirmarEmail"]
+texto_Senha: input[id='Senha']
+texto_conf_senha: input[id='ConfirmarSenha']
+texto_alerta_cupom: div[data-id='alertasCupom']
+campo_meu_carrinho: div[data-id='content']
+campo_pagamento_paypal: div[id="outerWrapper"]
+campo_resumo_compra: div[class='boxResumoTopo']
+texto_DDD_invalido: span[class="validacao_ddd field-validation-error"]
+texto_complemento: "#Complemento"
+texto_ddd: "#DDD"
+texto_numero: "#Telefone"
+texto_ddd_pj: "#DDDPj"
+texto_email_optin: label[for="ReceberAvisoEmail"]
+texto_sms_option: label[for="ReceberAvisoSms"]
+texto_site: "#Site"
+texto_ddd_PJ: "#Telefone1DDDPJ"
+texto_telefone_PJ: "#Telefone1PJ"
+texto_inscricao_estadual: "#InscricaoEstadual"
+texto_telefone2: '#fsPessoaFisica p[style="display: none;"]'
+campo_endereco_cep: '.shippingOptions'
+texto_cartao_credito: .iCardNumber
+texto_qtd_parcela: .installmentQty
+texto_cartao_dois: "#NrCartao2"
+texto_val_mes_dois: "#DtValidadeMes2"
+texto_val_ano_dois: "#DtValidadeAno2"
+texto_nome_cartao_dois: "#Nome2"
+texto_Cvv_dois: "#NrSeguranca2"
+
+
+
+
+
+# campo_cep: .modal.ng-untouched.ng-invalid.ng-dirty
+campo_cep: .busca-modal.home .input-buscal-modal .search-modal
+campo_meu_perfil_PF: .fCadastro.fCadastroPF
+campo_meu_perfil_PJ: .fCadastro.fCadastroPJ
+label_pessoa_juridica: "#fspessoa_juridica"
+campo_buscar: input[class='typeahead type1 tt-input fitext']
+campo_email: input[id="Email"]
+campo_confirmar_esqueci_senha: input[id="ConfirmarEmail"]
+campo_meus_pedidos: h1[class="tit"]
+texto_informe_qtd_parcelas: .validateParcelamento.field-validation-error
+texto_alerta: .alert
+campo_qtd_carrinho: .cart
+campo_quantidade_carrinho: tr[data-qtde="1"]
+campo_qtd_sku: input[data-id="qtdeSku"]
+campo_carrinho_cep: .maskCEP.fitext
+campo_meus_pedidos: .boxArea
+campo_nome_garantia: .nomeGarantia
+campo_min_cep: .erro
+campo_logado: .saudacao
+campo_login_erro: "#lnkEsqueciMeuEmail"
+campo_senha: "#Senha"
+campo_email_novo: "#EmailNovo"
+campo_confirmar_email_novo: "#ConfirmarEmailNovo"
+campo_informe_email: "#Email"
+campo_cnpj: input[id="Cnpj"]
+campo_razao_social: "#RazaoSocial"
+campo_nome_fantasia: "#NomeFantasia"
+campo_cep_planejados: "#cep"
+# texto_Busca: .typeahead.type1.fitext
+texto_Busca: input[id*=txtBusca]
+campo_opcao_produto: .produtoSku
+campo_cep_endereco: "#Cep"
+campo_ident_endereco: input[id="Nome"]
+campo_destinatario: input[id="Destinatario"]
+campo_ponto_referencia_endereco: input[id="PontoReferencia"]
+campo_selecione_endereco: .boxCadastrarEndereco
+campo_endereco_retira: .fPickupFilter
+campo_data_agendada: fieldset[class="fEntregaAgendada"]
+campo_entrega_normal_selecionado: .grp.tEntrega.normal.on
+campo_entrega_expressa_selecionado: .grp.tEntrega.expressa.on
+campo_telefone3: "#telefone3"
+
+campo_opcao_produto: .produtoSku
+campo_cep_endereco: "#Cep"
+campo_ident_endereco: input[id="Nome"]
+campo_destinatario: input[id="Destinatario"]
+campo_ponto_referencia_endereco: input[id="PontoReferencia"]
+campo_selecione_endereco: .boxCadastrarEndereco
+campo_entrega_normal_selecionado: .grp.tEntrega.normal.on
+campo_entrega_expressa_selecionado: .grp.tEntrega.expressa.on
+campo_login_efetuado: "#MenuWelcomeLogado"
+
+texto_Busca: input[id*="ctl00_txtBusca"]
+#texto_Busca: input[id='strBusca']
+texto_cep: input[name='cep']
+texto_cep_carrinho: input[id='Cep']
+texto_CepLojista: input[id='txtCep']
+#Responsivo meios pagamento
+texto_NascDia_r: input[formcontrolname=nascimentoDia]
+texto_NascMes_r: input[formcontrolname=nascimentoMes]
+texto_NascAno_r: input[formcontrolname=nascimentoAno]
+texto_phone_ddd_r: input[formcontrolname=ddd]
+texto_phone_numero_r: input[formcontrolname=telefone]
+texto_email_cadastro_r: input[formcontrolname=email]
+texto_confirmar_email_cadastro_r: input[formcontrolname=confirmaEmail]
+texto_senha_dados_acesso_r: input[formcontrolname=senha]
+texto_confirmar_senha_dados_acesso_r: input[formcontrolname=confirmaSenha]
+texto_informativo_como_funciona: '#comoFuncionaTitle'
+texto_conteudoDoCliente: '#conteudoClientesTitle'
+texto_pqFazerTitle: '#pqFazerTitle'
+
+
+
+#Tela de pagamento
+cartao_um:
+  texto_NrCartao: .iCardNumber
+  texto_ValMes: .month
+  texto_ValAno: .year
+  texto_NomeTitular: .iCardName
+  texto_Cvv: .iCsc
+  texto_QtdParcelas: .installmentQty
+  listParcelas: //select[@id='parcelamento-cartao-novo-1']
+cartao_dois:
+  texto_NrCartao: .iCardNumber
+  texto_ValMes: .month
+  texto_ValAno: .year
+  texto_NomeTitular: .iCardName
+  texto_Cvv: .iCsc
+  texto_QtdParcelas: .installmentQty
+  listParcelas: //select[@id='parcelamento-cartao-novo-1']
+label_alerta_mes_invalido: div[data-id="alertas"]
+label_alerta_ano_invalido: .field-validation-error
+label_campo_invalido: .field-validation-error
+label_cnpj_valido: .campo-cpf-cnpj.valid
+label_data_nasc_valido: .year.valid
+label_limite_nome_invalido: div[data-id="alertas"]
+label_codigo_seguranca_invalido: .grp.grp-inline.nomargin.grp-csc .field-validation-error
+campo_des_cvv: input[disabled="disabled"]
+campo_Senha_desabilitado: input[disabled="disabled"]
+campo_des_parcela: input[disabled="disabled"]
+label_informe_nome: .field-validation-error
+label_email_invalido: .field-validation-error
+label_informe_cartao: .field-validation-error
+label_conf_senha_invalida: .field-validation-error
+texto_Email_r: input[name=login]
+texto_Senha_r: input[name=Senha]
+texto_Quantidade_r: input[name=Quantidade]
+texto_Calcule_Frete_r: (//input[@type="text" and contains(@class,"inputText")])[1]
+texto_Cupom_Desconto_r: '#Cupom'
+texto_NrCartao_r: input[formcontrolname=numeroCartao]
+texto_NomeTitular_r: input[formcontrolname=titular]
+texto_Cvv_r: input[formcontrolname=cvv]
+texto_nome_completo_r: 'input[formcontrolname=nome]'
+texto_cpf_r: 'input[formcontrolname=cpf]'
+texto_razao_social_r: input[formcontrolname=razaoSocial]
+texto_nome_fantasia_r: input[formcontrolname=nomeFantasia]
+texto_cnpj_r: input[formcontrolname=cnpj]
+texto_ie_numeros_r: input[formcontrolname=inscricaoEstadual]
+texto_id_endereco_r: '#txtNomeEndereco'
+texto_nome_destinatario_r: '#txtNomeDestinatario'
+texto_cep_r: '#txtCep'
+texto_numero_r: '#txtNumeroEndereco'
+texto_ponto_referencia_r: '#txtPontoReferenciaEndereco'
+texto_insira_cupom: "#valePresente"
+texto_NomeTitular: .iCardName
+texto_ValMes: .month
+texto_Cvv: .iCsc
+texto_ValAno: .year
+texto_cep_moveis_planejados: '#ID_CEP'
+texto_MVP_loja_mais_proxima: '#itemEncontre'
+texto_MVP_orcamento: '#itemSolicite'
+texto_MVP_contato: '#itemAguarde'
+texto_MVP_projeto: '#itemFinalize'
+texto_MVP_profissionais_especializados: '#itemProfissionais'
+texto_MVP_entrega_montagem: '#itemEntrega'
+texto_MVP_confianca_experiencia: '#itemConfianca'
+texto_MVP_taxas_especiais: '#itemPagamento'
+
+###################Radio Buttons/Checkbox###############################
+primeiraCompra: //input[@id='rbNaoCadastrado']
+possuiCadastro: //input[@id='rbCadastrado']
+pessoa_fisica: .pFisica .fRadio
+pessoa_juridica: .pJuridica .fRadio
+masculino: .sexoM
+checkbox_pj_isento: "#IsentoInscricaoEstadual"
+check_pj_optante_simples: "#FlagOptantePeloSimples"
+rb_entrega_retira: input[data-id="endereco_entrega12"]
+rb_pessoa_fisica: label[for="pessoafisica"]
+rb_pessoa_juridica: label[for="pessoajuridica"]
+radio_button_entrega_normal: input[data-id='endereco_entrega1']
+radio_button_entrega_super_expressa: input[data-id='endereco_entrega10']
+radio_button_entrega_expressa: input[data-id='endereco_entrega2']
+radio_button_entrega_retrira: input[data-id='endereco_entrega12']
+radio_button_entrega_agendada: input[data-id='endereco_entrega5']
+rb_sexo_feminino: .sexoF
+check_servico: label[for*="chkCompreJuntoServicoInstalacaoAr"]
+#Tela de pagamento
+rdEnderecoNao: input[id='IdClienteEnderecoCobranca_0']
+rdEnderecoSim: input[id='IdClienteEnderecoCobranca_1']
+#Responsivo meios pagamento
+radio_PrimeiraCompra_r: input[value=N]
+radio_entrega_ativa_r: div[class*="clearfix opcoesEntrega ativo"]
+radio_entrega_normal_r: div[class*="opcoesEntrega "] input[type=radio]
+radio_entrega_agendada_r: //label[text()="Agendada"]
+radio_debito_itau_r: label[for="i-0"]
+radio_debito_visa_r: label[for="i-2"]
+radio_debito_bb_r: label[for="i-1"]
+radio_sexo_masculino: 'input[value=M]'
+radio_sexo_feminino: 'input[value=F]'
+radio_pessoa_juridica: 'input[value=N]'
+checkbox_isento: "#IsentoInscricaoEstadual"
+
+
+
+###################Combobox#############################################
+combobox_tipo_endereco: "#TipoEndereco"
+combobox_seleciona_endereco: "#IdClienteEnderecoSelecionado"
+#Responsivo meios pagamento
+combobox_val_mes_r: select[formcontrolname=validadeMes]
+combobox_val_ano_r: select[formcontrolname=validadeAno]
+combobox_parcelas_r: select[formcontrolname=parcelamento] option:first-child
+combo_phone_tipo_r: 'select[formcontrolname=telefoneTipo]'
+combo_estado_ie_r: 'select[formcontrolname=estadoSedeEmpresa]'
+combo_tipo_endereco_r: '#selTipoEndereco'
+combobox_telefone1: "#TipoFone1"
+combobox_telefone2: "#TipoFone2"
+combobox_inscricao_estudal: "#EstadoSedeEmpresa"
+
+
+################### Title ################################################
+identificacao: Identificação
+tela_inicial: .brnTvAuto.brnTvAutoThumbnail
+label_meu_carrinho: //h2[.='Meu Carrinho']
+label_opcoes_entrega: div[class="shippingOptions"]
+label_esqueci_minha_senha: "#cliente_esqueciSenha"
+label_esqueci_email_modal: .resetemail-title
+label_digite_cpf: .informecpf
+label_tipo_endereco2: .address
+label_cupom: .couponValue
+label_digite_cnpj: .informecnpj
+label_identificao: a[title="Identificação"]
+label_endereco: a[title="Endereço"]
+label_pagamento: a[title="Pagamento"]
+label_dados_de_acesso: .fCadastro.fCadastroLoja
+label_pagar_dois_cartoes: .paymentCardNumber
+label_esquci_senha_modal: .sucesso
+label_garantia: .subtitle-text
+label_carrinho: .subtitulo
+
+#Responsivo meios pagamento
+label_Resumo_Compra_R: .resumoHead .col-md-8
+label_Identificacao_R: '#titulo'
+label_Nao_Ha_Produto_R: .innerCart
+label_Nao_Sei_Cep_R: a[href*=correios]
+label_Valor_Total_R: .vTotal
+label_Alerta_R: div[class*=alert]
+label_Endereco_R: .col-md-12 h2
+label_Resumo_Compra_R: .col-md-8 label
+label_numero_pedido_r: .pNumero
+label_obrigatorio_R: '#swal2-content'
+label_cartao_credito_r: div[class="cardItem cardItemActive"]
+label_boleto_r: span[class*="icon-BOLETO"]
+label_debito_R: span[class*="icon-DEBITO"]
+label_user_senha_incorreta: span[id='clienteLogin_erros']
+label_user_senha_formato_invalido: .field-validation-error
+label_meus_pedidos: div[id*='upPrincipal']
+label_troca_forma_pagamento: div[ng-app="PagamentoCartaoCreditoTokenizadoApp"]
+label_dados_login: .email
+label_tipo_endereco: label[for="TipoEndereco"]
+label_opcoes_entrega: div[class="shippingOptions"]
+
+label_esqueci_minha_senha: "#cliente_esqueciSenha"
+################### Links ################################################
+menuSaudacao: .welcome
+link_sair: //*[.='Sair']
+lnk+opcoes: .sellerFullList
+link_email_mudou: "#lnkEmailMudou"
+link_esqueci_meu_email: "#lnkEsqueciMeuEmail"
+link_moveis_planejados_ver_conteudo: a[title='ver mais conteúdo dos clientes']
+link_esqueci_meu_email: "#lnkEsqueciMeuEmail"
+link_adicionar_outro_telefone: a[id="lnkTelefone3"]
+link_remover_telefone_pf: "#lnkRemoveTelefone2PF"
+link_remover_telefone_pj: "#lnkRemoveTelefone2PJ"
+link_ver_meus_pedidos: a[id="VerMeusPedidos"]
+link_pedidos: .pedidos
+link_adicionar_garantia: .titGEs
+
+
+#Tela de pagamento
+el_um_cartao_credito:
+  classe: .credit
+  um_cartao_credito: Cartão de Crédito
+el_dois_cartoes_credito:
+  classe: .credit
+  dois_cartoes_credito: Cartão de Crédito
+el_boleto:
+  classe: .boleto
+  boleto: Boleto Bancário
+el_boleto_cartao:
+  classe: .credit
+  dois_cartoes_credito: Cartão de Crédito
+el_debito:
+  classe: .debit
+  debito_online: Débito Online
+el_paypal:
+  classe: a[title="Paypal"]
+  paypal: Paypal
+el_multicheque:
+  classe: .multi
+  multicheque: Multicheque/Multicash
+el_cartao_presente:
+  classe: .giftcard
+  cartao_presente: Cartão Presente
+el_masterpass:
+  classe: .masterpass
+  masterpass: MasterPass
+el_visa_checkout:
+  classe: .masterpass
+  visa_checkout: Visa Checkout
+el_redepay:
+  classe: .redepay
+redepay: Rede Pay
+debito_itau: .grp.bancoItau.debitoBox
+debito_visa: .grp.visaEletron.debitoBox
+debito_maestro: .grp.maestro.debitoBox
+link_saiba_mais: a[id*="lnkHelpDisp"]
+link_esqueci_minha_senha_modal: '#lnkEsqueciSenha'
+link_editar_endereco: a[class="lnk lnkEditar"]
+link_excluir_endereco: a[class="lnk lnkExcluir"]
+
+
+########################## Modal ##############################
+cep_invalido: .ruptura-modal
+#Responsivo meios pagamento
+link_Logo_Carrinho_R: .navbar-brand
+link_Central_Atendimento_R: a[href*="centraldeatendimento"]
+link_Meus_Pedidos_R: a[href*="MeusPedidos"]
+link_Remover_Quantidade_R: a[class=linkQtd]
+link_Confira_Outras_Opcoes_R: p .link
+link_meu_carrinho: a[id*='TopBar1_lnkCarrinho']
+link_esqueci_minha_senha: .popup
+link_meus_pedidos: "#VerMeusPedidos"
+link_meuss_pedidos: a[title="Meus pedidos"]
+##########################Modal##############################
+retira: TB_iframeContent
+frame_visa_checkout: '#VMECheckoutIframe'
+frame_esqueci_senha: TB_iframeContent
+frame_saiba_mais: "#TB_iframeContent"
+frame_email_mudou: "#TB_iframeContent"
+frame_modal_indereco: "#TB_iframeContent"
+frame_modal: TB_iframeContent
+modal_moveis_planejados: "#bannerTopo"
+banner_moveis_planejados: '.logo'
+banner_matriz_de_fotos: "#matriz"
+banner_modal_orcamento: "#cepLocal"
+banner_projetos_clientes_quarto: "#banner_2"
+banner_projetos_clientes_sala: "#banner_5"
+banner_projetos_clientes_banheiro: "#banner_4"
+########################## Produto ############################################
+produto: '.hproduct'
+produto_img: '.productImage'
+produto_img_pf: .nm-product-img-link
+produto_img_detalhe: '#divFullImage'
+########################### Wizards ###########################################
+wizard: .cont.wizard-pane
+wizard_finalizado: .cont.pane-encontrados
+botao_comecar_wizard: .bt-wizard
+botao_finalizar_wizard: .bt-wizard-finalizar.click-opt
+opcoes_wizard: .box-opcoes
+botao_refazer_wizard: .bt-wizard-refazer
+botao_fechar_wizard: .bt-fechar-wizard
+botao_bread_crumb: .breadcrumb-item
+
+########################### Widget Pneus ######################################
+widget_pneu: .widget-filtro
+widget_pneu_medida: .widget-filtro-medidas
+campo_opcoes_widget: a[class='chosen-single chosen-default']
+opcoes_widget: ul[class='chosen-results']
+botao_buscar_widget: .buscar-ofertas-bt
+widget_sem_resultado: .widget-sem-resultado
+widget_resultado: .widget-resultado
+widget_resultado_medida: .widget-resultado-medidas
+botao_widget_medida: .por-medida
+botao_todas_ofertas_widget: .widget-parametros-todos
+botao_todas_ofertas_widget_medida: .widget-resultado-todos
+campo_resultado: .dados
+
+# ################################## botoes #################################
+# #Home
+# botao_cadastrar_email_news: "#ctl00_TopBar_PaginaSistemaArea1_ctl02_btnNewsOK"
+# botao_anterior_banner_carrocel: ".slick-prev.slick-arrow"
+# botao_proximo_banner_carrocel: ".slick-next.slick-arrow"
+# botao_comprar_retira: ".lnkPop.bt.retira-loja-bt-more"
+# botao_recusa_seguro: button[ng-click='cart.addServices()']
+botao_continuar_endereco: input[data-id='endereco_salvar']
+
+################################# Header ####################################
+logo: .logo
+#carrinho: .cart
+carrinho: .cart-quantity
+
+casasbahia:
+  meus_pedidos: .links__item--meus-pedidos
+  duvidas: .links__item--meus-duvidas
+  atendimento: .links__item--atendimento
+  retira_rapido: .links__item--retira
+  nossas_lojas: .links__item--lojas
+  televendas: .links__item--televendas
+  lista_casamento: a[title='Lista de Casamento']
+  carrinho: .cart
+  #carrinho: .cart-quantity
+
+  banner_carrocel: .lkCh
+  banner_servicos: .bnr-link
+  ofertas_especiais: .listOffersNews
+  marketplace: .bt1
+  lst_casamento: .bt2
+  garantia_extendida: .bt3
+  seguro_auto: .bt4
+  cartao_presente: .bt5
+  botao_fechar_televendas: .fechar
+
+pontofrio:
+  duvidas: .links__item--duvidas
+  meus_pedidos: .links__item--meus-pedidos
+  atendimento: .links__item--atendimento
+  retira_rapido: .links__item--retira
+  nossas_lojas: .links__item--lojas
+  televendas: .links__item--televendas
+  lista_casamento: a[title='Lista de Casamento']
+  carrinho: .cart
+  #carrinho: .cart-quantity
+
+extra:
+  meus_pedidos: .acompanhe-link
+  duvidas: .links__item--faq
+  atendimento: .links__item--sac
+  nossas_lojas: .links__item--localizador
+  televendas: .links__item--televendas
+  lista_casamento: a[title='Lista de Casamento']
+  carrinho: .cart
+  #carrinho: .cart-quantity
+
+################################ Footer ##############################
+links_footer: .list-link
+facebook: .ic-facebook
+twitter: .ic-twitter
+google+: .ic-google-plus
+youtube: .ic-youtube
+wordpress: .ic-blog
+cartao_cb: .content
+
+############################# Outros #####################################
+#Home
+# versao_desktop: ".ic-desktop"
+# versao_mobile: ".ic-mobile"
+radio_button_entrega_normal: input[data-id='endereco_entrega1']
+radio_button_entrega_super_expressa: input[data-id='endereco_entrega10']
+radio_button_entrega_expressa: input[data-id='endereco_entrega2']
+radio_button_entrega_retrira: input[data-id='endereco_entrega12']
+radio_button_entrega_agendada: input[data-id='endereco_entrega5']
+
+
+############################# Meios de pagamento #########################
+# meio_pagamento: a[data-tipo='formaPagamento']
+# dois_cartoes: ".bt2Cards"
+utilizar_dois_cartoes: .cardsQty
+utilizar_boleto_cartao: "#btFpBoletoMaisCartao"
+############################# Dados cartao de credito #########################
+# cartao: ".iCardNumber"
+# nome_titular: ".iCardName"
+# validade_mes: ".month"
+# validade_ano: ".year"
+# codigo_seguranca: ".iCsc"
+# parcelas: ".installmentQty"
+
+############################ Campos Retira ###################################
+estado_retira: "select[data-id='filtroLojaEstado']"
+regiao_retira: "select[data-id='filtroLojaRegiao']"
+cidade_retira: "select[data-id='filtroLojaCidade']"
+bairro_retira: "select[data-id='filtroLojaBairro']"
+loja_retira: "select[data-id='IdLojaFisicaSelecionado']"
+link_retira_rapido: ul[class='lista-resultado-estabelecimento'] li:first-child a
+
+########################### Carrinho ##########################################
+remover_produtos: a[class*="lnkRemover"]
+campo_qtd_produto: input[data-id="qtdeSku"]
+campo_meu_carrinho: "#sectionContent"
+
+
+
+############################ Campos agenda ####################################
+agenda_data: "select[id='DataSelecionada']"
+agenda_horario: "select[id='IdPeriodoSelecionado']"
+
+############################ Garantia e seguro ################################
+radio_button_garantia_seguro: "span[class='input-custom']"
+campo_garantia: ".warranties-label"
+botao_garantia: ".format-02"
+campo_seguro: ".fique-seguro-label"
+botao_seguro: ".format-02"
+garantia: "a[class='contract-button']"
+garantia_valor: ".months"
+garantia_carrinho: "a[class='lnkPop']"
+radio_button_garantia_carrinho: ".gesTimeGrp"
+botao_continuar_garantia: ".btComprarComGarantia"
+
+planos_garantia_extendida_CB_PF: .extended-warranty
+planos_garantia_extendida_BT: .warranties
+planos_garantia_extendida_EX: .plans
+
+botao_contratar_12m_EX: '#btnGarantia12meses'
+botao_contratar_24m_EX: '#btnGarantiaRecomendada'
+botao_contratar_36m_EX: '#btnGarantia36meses'
+radio_planos_BT_pai: .warranties-label
+radio_planos_CB_PF_pai: '.input-custom'
+
+label_tipo_entrega: .opcaoEntrega
